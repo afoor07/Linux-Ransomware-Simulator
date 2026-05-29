@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Reports
+reports/*.json
+reports/*.txt
+!reports/.gitkeep
+
+# Test files
+/tmp/ransom_sim_test/
+/tmp/ransom_test_*/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
